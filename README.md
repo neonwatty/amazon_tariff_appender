@@ -2,6 +2,11 @@
 
 A simple Chrome extension that adds import tariff information to Amazon product pages.
 
+## Demo
+
+<img src="/demo_shots/demo_1.png" width="500" alt="Demo 1">
+<img src="/demo_shots/demo_2.png" width="500" alt="Demo 2">
+
 ## Features
 
 - Automatically detects Amazon product pages
