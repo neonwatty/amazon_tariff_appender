@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Amazon Tariff Appender",
+  "version": "1.0",
+  "description": "Injects a custom tariff field into Amazon product pages providing an estimated tariff per product.",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.amazon.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "host_permissions": [
+    "*://*.amazon.com/*"
+  ]
+}
